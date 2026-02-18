@@ -32,6 +32,7 @@ def predict():
         prediction_text=f"Predicted Distraction Score: {round(distraction_score,2)}"
     )
 
-
 if __name__ == "__main__":
     app.run(debug=True)
+
+
